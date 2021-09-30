@@ -2,7 +2,7 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 
-import Signin from "../pages/signin";
+import SignIn from "../pages/SignIn";
 
 const Stack = createNativeStackNavigator();
 
@@ -14,7 +14,7 @@ export default () => {
                 headerShown: false
             }}
         >
-            <Stack.Screen name="sigin" component={Signin} />
+            <Stack.Screen name="sigin" component={SignIn} />
         </Stack.Navigator>
     );
 }
