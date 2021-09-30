@@ -1,10 +1,11 @@
 import React from "react";
-import { SafeAreaView } from "react-native";
+import { NavigationContainer } from '@react-navigation/native';
+import MainStack from "./src/Navigators/MainStack";
 
 export default () => {
   return (
-    <SafeAreaView>
-      
-    </SafeAreaView>
+    <NavigationContainer>
+      <MainStack />
+    </NavigationContainer>
   )
 }
